@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <body>
+   
+        <h1  style="font-family:Cursive; color:blue;" title="Peek a boo!"> Image</h1>
+        <p  style="font-family:Cursive" title="I see you!">Images are defined  for marking: <code> < img > </code> <p>
+        <img src="https://t4.ftcdn.net/jpg/00/89/29/59/360_F_89295982_9f03aDwq26ArLlyeDhBP9qNWZW5YGCiF.jpg" alt= "sleep">
+        <h5 style="font-family:Fantasy; color:gray">I'm waiting for the rest of the guys to finish...</h5>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+ <!DOCTYPE html>
+ <html>
+    <body>
+        <form action="#" style="border: 1px solid;tex-align:center; color:#000066; font-family:Verdana;font-size: 20px">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome"><br><br>
+            <input type="submit" value="Enviar">
+        </form>  
+    </body>
+ </html>

@@ -1,0 +1,18 @@
+
+
+ <!DOCTYPE html>
+ <html lang="pt-br">
+    <head>
+       <title>Aula4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabela</title>
+    </head>
+    <h1>Tabelas</h1>
+    <p> <code> < tr > </code> define as linhas da tabela.</p>
+    <p> <code> < td > </code> define as celulas da tabela.</p>
+    <p> <code> < th > </code> define os títulos da tabela.</p>
+<br><br>
+     <h1>significados</h1>
+    <p> 'lang' define a linguagem dos textos dentro da programação. </p>
+</html>

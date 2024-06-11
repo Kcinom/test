@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+   
+        <h1   title="Peek a boo!"> An unordered list in html</h1>
+        <ul style="font-family:fantasy">
+            <li>Coffe</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    </body>
+</html>

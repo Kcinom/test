@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+   
+        <h2  style="font-family:fantasy" title="Peek a boo!"> An unordered list in html</h2>
+        <ul>
+            <li>Coffe</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+   
+        <h1  style="font-family:Cursive; color:blue;" title="Peek a boo!"> Image</h1>
+        <p  style="font-family:Cursive" title="I see you!">Images are defined  for marking: <code> < img > </code> <p>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.businessinsider.com%2Ffunny-dog-pictures-perfect-timing-2019-6&psig=AOvVaw0Or0yS0tZ09C0rfc9jTlWb&ust=1717723860240000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCGppzqxYYDFQAAAAAdAAAAABAE" alt= "Estou esperando o resto da turma terminar">
+    </body>
+</html>

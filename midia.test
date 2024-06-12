@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    float a, b, c, d, e;
+    printf("\n Informe as 4 notas da diciplina.\n");
+    scanf("%f%f%f%f", &a, &b, &c, &d);
+    e=(a+b+c+d)/4;
+    if(e>=7){
+         printf("Sua média nesta diciplina é %.2f \n\tVocê foi aprovado!", e);
+    }else{
+          printf("Sua média nesta diciplina é %.2f \n\tVocê foi reprovado!", e);
+    }
+   
+    return 0;
+}

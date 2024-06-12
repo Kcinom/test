@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+    int a;
+    
+int main()
+{
+  printf ("\ninsira o número\n");
+  scanf ("%d", &a);
+  if(a % 2==0)
+    printf ("Seu número é par!");
+    else 
+    printf ("Seu número é impar!");

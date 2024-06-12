@@ -1,0 +1,10 @@
+#include <stdio.h>
+    int number;
+int main()
+{
+    number = 0;
+    while (number <= 10){
+        printf ("\n%d", number);
+        number++;
+    }
+}

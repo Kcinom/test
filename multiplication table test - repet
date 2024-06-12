@@ -1,0 +1,11 @@
+#include <stdio.h>
+    int number;
+int main()
+{
+    printf("\t\tInform a number for multiply:\n");
+    scanf("%d", &number);
+    for (int i = 0; i <= 10; i++){
+        printf ("\n%d * %d = %d", i, number, i*number);
+    }
+    return 0;
+}

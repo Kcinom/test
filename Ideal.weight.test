@@ -1,0 +1,20 @@
+#include <stdio.h>
+    float s, w;
+    char g;
+int main()
+{
+    printf("\n\t\t\t\tWelcome!\n\n\t Inform your gender:\n ('w' for Wolman our 'm' for Man) \n");
+    scanf("%c", &g);
+    printf ("Now, inform your stature:");
+    scanf("%f", &s);
+    
+    if(g =='w'|| g == 'W') {
+        w = (62.1 * s) - 44.7;
+    }
+    else if(g=='m'|| g == 'M'){
+        w = (72.7 * s) - 58;
+         
+    }
+printf ("\n\t\t Your ideal weight is %.2f", w);
+    return 0;
+}

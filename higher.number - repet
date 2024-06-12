@@ -1,0 +1,18 @@
+#include <stdio.h>
+int i, n;
+int main ()
+{
+  i = 0;
+  printf ("\t\t\tInform a number or 0 for finish:\n");
+  scanf ("%d", &n);
+  while (n != 0)
+	{
+	  if (n > i)
+		{
+		  i = n;
+		}
+	  printf ("\n\t\t\tInform a numberor 0 for finish:\n");
+	  scanf ("%d", &n);
+	}
+  printf ("\nYour bigger number is %d", i);
+}

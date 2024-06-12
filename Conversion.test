@@ -1,0 +1,12 @@
+#include <stdio.h>
+    float r, d;
+int main()
+{
+    printf("Inform your valor in Real for conversion.\n");
+    scanf ("%f", &r);
+    d = r/4.93;
+    printf ("Your power of shop in Dolar is US$ %.2f", d);
+    
+
+    return 0;
+}

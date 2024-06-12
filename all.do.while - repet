@@ -1,0 +1,20 @@
+#include <stdio.h>
+int i, number;
+int
+main ()
+{
+  printf ("\t\t\tInform a number for multiply or 0 for interrupt:\n");
+  scanf ("%d", &number);
+  while (number != 0)
+	{
+	  i = 0;
+	  do
+		{
+		  printf ("\n%d * %d = %d", i, number, i * number);
+		  i++;
+		}
+	  while (i <= 10);
+	  printf ("\t\t\tInform a number for multiply or 0 for interrupt:\n");
+	  scanf ("%d", &number);
+	}
+}

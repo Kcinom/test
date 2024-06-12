@@ -1,0 +1,15 @@
+#include <stdio.h>
+    float na, nb, nc, n;
+int main()
+{
+   printf ("\t\tInform a valor of 1º, 2º, 3º test:\n");
+    scanf ("%f%f%f", &na, &nb, &nc);
+    n = (na + nb + nc)/3;
+    if (n<6) {
+    printf ("\tThe your mean is %.2f. \n\t\t\tReprovado!\n", n);
+    }
+    else {
+    printf ("\tThe your mean is %.2f.\n\t\t\tAprovado!\n", n);
+    }
+    return 0;
+}

@@ -1,0 +1,22 @@
+#include <stdio.h>
+int number1[10], number2[10], number3[10];
+int main ()
+{
+  printf ("\t\t\tEnter the numbers to fill in:\n");
+  for (int i; i <= 9; i++)
+	{
+	  scanf ("%d", &number1[i]);
+	}
+  printf ("\n\n");
+  for (int i; i <= 9; i++)
+	{
+	  scanf ("%d", &number2[i]);
+	}
+  printf ("\n\n");
+  for (int i = 0; i <= 9; i++)
+	{
+	  number3[i] = number1[i] + number2[i];
+	  printf ("%d\n", number3[i]);
+	}
+  return 0;
+}

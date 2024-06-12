@@ -1,0 +1,13 @@
+#include <stdio.h>
+    float s;
+    char n[50];
+int main()
+{
+    printf("\t\t\twrite your name:\n");
+    scanf("%[^\n]s", n);
+    printf ("\tWhat is your salary?\n");
+    scanf ("%f", &s);
+    printf ("\nWorker name: %s \n\t Salary: %.2f", n, s);
+
+    return 0;
+}
